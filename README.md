@@ -8,12 +8,19 @@ Simple function to allow you to use fzf to checkout git branches.
 fzf-git-branch
 ```
 
-_But, I recommend you use it as a `git` alias:_
+_But, I recommend you use it as a `git` alias (if you install with `antigen`):_
 
 ```
 [alias]
-	branch = "! fzf-git-branch"
+	fb = ! /bin/bash -c 'source $HOME/.antigen/bundles/aubreypwd/zsh-plugin-fzf-git-branch/fzf-git-branch.plugin.zsh && fzf-git-branch'
 ```
+
+Now you can just do `git fb` to find branches to checkout.
+
+## Requirements
+
+- `fzf`
+- `sed`
 
 ## Install
 
