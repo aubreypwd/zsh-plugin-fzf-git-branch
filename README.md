@@ -19,8 +19,11 @@ Now you can just do `git fb` to find branches to checkout.
 
 ## Requirements
 
-- `fzf`
+- `fzf`<sup>*</sup>
 - `sed`
+- `git`
+
+<sup>*</sup> Note, if using `antigen` method, will try and install `fzf` for you automatically using homebrew if installed. `sed` and `git` are assumed to be installed.
 
 ## Install
 
@@ -43,6 +46,10 @@ antigen bundle aubreypwd/zsh-plugin-fzf-git-branch
 ---
 
 ## Changelog
+
+### 1.0.0
+
+- If using the `antigen` method will try and install `fzf` automatically using homebrew
 
 ### 1.0.0
 
