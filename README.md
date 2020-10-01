@@ -47,7 +47,7 @@ antigen bundle aubreypwd/zsh-plugin-fzf-git-branch
 
 ## Changelog
 
-### 1.0.0
+### 1.0.1
 
 - If using the `antigen` method will try and install `fzf` automatically using homebrew
 
