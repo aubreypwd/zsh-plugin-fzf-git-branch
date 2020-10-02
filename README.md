@@ -38,7 +38,7 @@ antigen bundle aubreypwd/zsh-plugin-fzf-git-branch@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle aubreypwd/zsh-plugin-fzf-git-branch
+antigen bundle ssh://git@github.com/aubreypwd/zsh-plugin-fzf-git-branch
 ```
 
 ...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-fzf-git-branch`.
